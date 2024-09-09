@@ -1,0 +1,344 @@
+/***********************    LOGIN AND SIGN INSECTION  START  *********************/
+
+@media(max-width: 300vh){
+    .log_in_form, .sign_in_form{
+        background-color: white;
+        border-radius: 10px;
+        margin-top:10%;
+        width: 50% 50%;
+        text-align: center;
+        margin-left:36%;
+        margin-right: 36%;
+    
+    }
+    .sign_in_form{                           /*  Sign in form*/
+        margin-top: 5%;
+        margin-top:5%;
+    }
+    .whole{                                        /*body/
+        /* background-color:rgb(125,249,255); */
+        background-image: url(EMS-images/employee.jfif);
+        background-repeat: no-repeat;
+        height: 100%;
+        background-size: cover;
+    }
+   
+         .label{                                 /* all the label for*/
+            font-size: 100%;
+        }
+        
+        #logo img{                               /* the sign in and log in logo  */
+            border-image: 50%;
+            height: 20%;
+            width: 20%;
+        }
+
+        .image{                          /*  the  container where the logo image is */
+            padding-top: 3%;
+            padding-bottom:10px;
+        }
+        form input{                        /* The form input for sign in and log in*/
+            padding-top:10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            width: 70%;
+            text-align: center;
+            border-style:none;
+            border-bottom: outset;
+        }
+        .login{                                   /*  the login button for log in page but the login and sign in button for sign in page*/
+            background-color: rgb(125,249,255);
+        }
+    
+    }
+
+
+/***********************    LOGIN SECTION  END  *******************
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************  MENU BAR CSS STYLING STARTS HERE*************/
+                                                                        
+.whole{                                                                  
+    background-color: lavender;    /* THR BODY */                             
+}
+
+.body1{
+    margin: 0;
+    font-family: Arial sans-serif;
+}
+.container{
+    display: grid;
+    grid-column: 1fr 32fr;
+    height: 100vh;
+    background-color: white;
+}
+.menu{                              /*  the whole menu bar */
+    background-color: lavender;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 275px;
+    overflow-y: auto;
+    
+}
+.menu img{                    /* the hamburger icon */
+    
+    height: 4vh;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    
+}
+
+.icon img{
+    width: 15%;
+    margin-bottom: 5%;
+    height: 20px;
+    cursor: pointer;
+}
+
+.employee img{                      /* The employee image    */
+    border-radius: 50%;
+    height: 35px;
+    display: block;
+    width: 5vh;
+}
+
+.profile, .apps,.support,.company{     /*   Changes the top and bottom space of the the h4     */
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+.employee,.report,.setting,.resource{               /* All the lines on the menu dashboard here*/
+    border-bottom: 1px outset;
+}
+
+.employee-name{                 /*  Employees Name here on the profile pic    */
+    font-weight: bold;
+    
+}
+
+
+#d-flex{                          /*   used to aligne the image and text on the menu bar      */
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#d-flex:hover{                    /*  The hover section in the Menu Bar    */
+    background-color: white;
+    
+}
+
+span,h4,p{
+    font-style: oblique;
+    display: flex;
+}
+
+/*        Options in the "Your App Section"       */
+.project span{
+    align-self: center;
+}
+
+.timer span{
+    align-self: center;
+}
+
+.report span{
+    align-self: center;
+}
+
+/*        Options in the "Your Company Section"       */
+.employee0 span{
+    align-self: center;
+}
+
+.payroll span{
+    align-self: center;
+}
+
+.performance span{
+    align-self: center;
+}
+
+.attendance span{
+    align-self: center;
+}
+
+.client span{
+    align-self: center;
+}
+
+.events span{
+    align-self: center;
+}
+
+.feedback span{
+    align-self: center;
+}
+
+.notification span{
+    align-self: center;
+}
+
+.setting span{
+    align-self: center;
+}
+
+.leave span{
+    align-self: center;
+}
+
+/*        Options in the "Your Support and alog out Section"       */
+
+.resource span{
+    align-self: center;
+}
+
+.logout span{
+    align-self: center;
+}
+
+/*****************  Employee Profile Starts Here   *************/
+@media(max-height: 100vh){
+    
+
+.employee-box{
+    display: block;
+    justify-content: space-between;
+    margin-left: 20%;
+    background-color: lavender;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+}
+.employee-Dashboard{
+    color: white;
+    justify-content: center;
+    
+    font-size: 30px;
+    font-style: normal;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.search-box{
+    margin-left: 5%;
+    margin-top: 40px;
+    display: flex;
+}
+
+.search-box input{
+    width: 25%;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(EMS-images/Search-icon.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 20px;
+    cursor: pointer;
+    
+}
+
+.user-profile1{
+    background-color: whitesmoke;
+    width: 35%;
+    margin-left: 5%;  
+    margin-top: 50px;            /*    space around the employees profile */
+    border-radius: 5%;    
+}
+
+.user-profile1 img{
+    
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    padding: 10%;
+
+}
+
+
+.user-profile1 span{
+    justify-content: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.employee-social{
+    display: inline-flex;
+    margin-left: 14vh;
+    gap: .5rem;
+    margin-bottom: 10vh;
+    
+}
+.employee-social img{
+    width: 4vh;
+    height: 4vh;
+    
+}
+.user-profile{
+    display: flex;
+}
+
+.user-profile2{
+    background-color: whitesmoke;
+    width: 55%;
+    margin-left: 5%;  
+    margin-right: 5%;
+    margin-top: 50px;            /*    space around the employees profile */
+    border-radius: 5%;
+    padding-top: 20px;
+    padding-left: 5%;
+    
+    
+}
+
+#department,#roles{
+    width: 90%;
+    height: 7%;
+    background-color: lavender;
+    border-radius: 5px;
+}
+
+.firstName,.lastName,.date{
+    width: 30%;
+    height: 2%;
+    background-color: lavender;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.age{
+    width: 10%;
+    height: 2%;
+    background-color: lavender;
+    border-radius: 5px;
+    text-align: center;
+}
+.note-box{
+    width: 90%;
+    height: 20%;
+    background-color: lavender;
+    border-radius: 5px;
+    border-radius: 5%;
+    
+}
+.name-box{
+    display: flex;
+}
+/*****************  Employee Profile Ends Here   *************/
+
+
+/************************  MENU BAR CSS STYLING ENDS HERE*************/

@@ -1,0 +1,213 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard</title>
+    <link rel="stylesheet" href="EMS.css">
+  </head>
+  <body class="body1">
+
+<div class="container">
+    <!-- menu bar starts here -->
+
+    <div class="menu">
+      
+      <div class="icon">
+        <img src="EMS-images/menu.jpeg" alt="Menu">
+      </div>
+
+      <h4 class="profile">My Profile</h4>
+      <div id="d-flex" class="employee">
+        <img src="EMS-images/user-profile.jpeg">
+        <p class="employee-name">Employee Name</p>
+      </div>
+
+      <h4 class="apps">Your Apps</h4>
+
+      <div id="d-flex" class="project">
+        <img src="EMS-images/project).png">
+        <span>project</span>
+      </div>
+
+      <div id="d-flex" class="timer">
+        <img src="EMS-images/timer.jpeg">
+        <span>Timer</span>
+      </div>
+
+      <div id="d-flex" class="report">
+        <img src="EMS-images/report.jpeg">
+        <span>Report</span>
+      </div>
+
+       <h4 class="company">Your Company</h4>
+
+       <div id="d-flex" class="employee0">
+        <img src="EMS-images/employees.png">
+        <span>Employees</span>
+      </div>
+
+      <div id="d-flex" class="payroll">
+        <img src="EMS-images/payroll.png">
+        <span>Payroll</span>
+      </div>
+
+      <div id="d-flex" class="performance">
+        <img src="EMS-images/performance.png">
+        <span>Performance</span>
+      </div>
+
+      <div id="d-flex" class="attendance">
+        <img src="EMS-images/attendance.jpeg">
+        <span>Attendance Record</span>
+      </div>
+
+      <div id="d-flex" class="client">
+        <img src="EMS-images/client.jpeg">
+        <span>clients</span>
+      </div>
+
+      <div id="d-flex" class="leave">
+        <img src="EMS-images/leave.jpeg">
+        <span>Leaves Management</span>
+      </div>
+
+      <div id="d-flex" class="feedback">
+        <img src="EMS-images/feedback.jpeg">
+        <span>feedbacks</span>
+      </div>
+
+
+      <div id="d-flex" class="notification">
+        <img src="EMS-images/notification.jpg">
+        <span>notifications</span>
+      </div>
+
+      <div id="d-flex" class="setting">
+        <img src="EMS-images/settings.jpg">
+        <span>Settings</span>
+      </div>
+
+
+      <h4 class="support">Support</h4>
+      
+
+      <div id="d-flex" class="resource">
+        <img src="EMS-images/support-resources.jpeg">
+        <span>Resources and Support</span>
+      </div>
+
+      <div id="d-flex" class="logout">
+        <img src="EMS-images/logout.jpeg">
+        <span>Log out</span>
+      </div>
+
+
+    </div>
+    
+    <!-- menu bar ends here -->
+
+    <!----------------------- Employees profile/box Header starts here ------------------>
+
+    <div class="employee-box">
+      <p class="employee-Dashboard">EMPLOYEE PROFILE</p>
+      <div class="search-box"><input type="search" placeholder="Search for.."></div>
+      <div class="user-profile">
+      <div class="user-profile1">
+        <center><img src="EMS-images/user-profile.jpeg"></center>
+        <span class="user-name">Employee-Name</span>
+        <span>Employee Role</span><br>
+        <span class="employee-contact"><label>Phone Number:</label> +237 681-31-39-82</span>
+        <span class="employee-email"><label>Email:</label> ngusmith24@gmail.com</span><br>
+
+        <div class="employee-social">
+          <center><img src="EMS-images/facebook.png" class="facebook"></center> 
+          <center><img src="EMS-images/linkedin.png" class="linkedin"></center> 
+          <center><img src="EMS-images/free-whatsapp-135-493160 - Copy.png" class="whatsapp"></center>
+          <center><img src="EMS-images/twitter.png"></center>
+          <center><img src="EMS-images/instagram.png"></center> 
+
+        </div>
+
+        </div>
+
+       <form class="user-profile2">
+        <label for="departments">
+          Department
+        </label><br>
+        <select id="department" class="department">
+          <option value="Research and Development">Research and Development</option>
+          <option value="Human Resources">Human Resources(HR)</option>
+          <option value="Finance">Finance</option>
+          <option value="Information Technology">Information Technology(IT)</option>
+          <option value="Sales">Sales</option>
+          <option value="Marketing">Marketing</option>
+          <option value="Operationds">Operations</option>
+          <option value="Customer Service">Customer Service</option>
+          <option value="Legal Issues">Legal Issues</option>
+          <option value="Training and Development">Training and Development</option>
+          <option value="Quality Assurance">Quality Assurance</option>
+        </select><br><br>
+
+
+        <label for="roles">
+          roles
+        </label><br>
+        <select id="roles" class="roles">
+          <option value="Administrative Staff">Administrative staff</option>
+          <option value="Recruiter">Recruiter</option>
+          <option value="Human Resource Manager">Human Resource Manager(HR M)</option>
+          <option value="Finance Manager">Finance Manager</option>
+          <option value="Information Technology">Information Technology(IT)</option>
+          <option value="Sales Manager">Sales Manager</option>
+          <option value="Marketing Manager">Marketing Manager</option>
+          <option value="Operations Manager">Operations Manager</option>
+          <option value="Customer Service Representative">Customer Service Representative</option>
+          <option value="Legal Counselor">Legal Counselor</option>
+          <option value="Training Coordinator">Training Coordinator</option>
+          <option value="Quality Assurance Specialist">Quality Assurance Spacialist</option>
+        </select><br><br>
+
+<!-- The employees firstname and last name container   Start-->
+
+        <div class="name-box">
+        <label for="FirstName">
+          First Name
+        </label>
+        <input type="text" class="firstName" readonly placeholder="Employee FirstName">
+        <label for="LastName">
+          Last Name
+        </label>
+        <input type="text" class="lastName" readonly placeholder="Employee LastName">
+        </div><br>
+<!-- The employees firstname and last name container   End-->
+
+        <label for="Date of Birth">
+          Date Of Birth<br>
+          <input type="date" class="date">
+          <input type="number" class="age" placeholder="age y.o">
+        </label><br><br>
+        <label for="Note">Note:</label><br>
+        <input type="text-box" class="note-box" placeholder="write something..">
+       </form>
+
+      </div>
+
+     
+
+    </div>
+ 
+    
+
+
+
+  </div>    
+  <!-- container ends here -->
+
+
+
+    <!------------------------- Employees profile Header Ends here here ---------------------->
+
+
+  </body>
+  </html>
